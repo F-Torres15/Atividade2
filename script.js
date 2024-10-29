@@ -35,6 +35,24 @@ function addHtml() {
  list.before("Inicio da Lista")
  list.after("Fim da lista")
 
+function azul(){
+   let novaCor= list.children[2].style.color='blue'
+if(list.children[2].style.color == 'black'){
+novaCor
+}
+else{
+   novaCor.children.style.color = 'black'
+   
+}
+}
 
-list.children[2].style.color="blue"
-list.children[3].style.fontWeight ="bold"
+function borda(){
+   let addBorda = list.children[3].style.fontWeight='bold'
+   if(list.children[3].style.color='black'){
+      addBorda
+   }else{
+     list.children[3].style.color='black'
+     
+   }
+
+}
